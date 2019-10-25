@@ -15,7 +15,7 @@ $(document).ready(function() {
     } else if (color === "red" && born === "outside" && job === "firefighter" || animal === "kangaroo" || season === "summer") {
       $(".rubyanswer").show();
       $(".rubyimg").show();
-    } else if (animal === "snake" && job === "programmer" || born === "east" || season === winter || color === black) {
+    } else if (animal === "snake" && job === "programmer" || born === "east" || season === "winter" || color === "black") {
       $(".pythonanswer").show();
       $(".pythonimg").show();
     } else {
