@@ -1,4 +1,31 @@
-/* .jsanswer {
+img {
+  width: 100%;
+  height: auto;
+}
+
+.jsimg {
+  display: none;
+}
+
+.rubyimg {
+  display: none;
+  width: 80%;
+  height: auto;
+}
+
+.pythonimg {
+  display: none;
+  width: 80%;
+  height: auto;
+}
+
+.rustimg {
+  display: none;
+  width: 80%;
+  height: auto;
+}
+
+.jsanswer {
   display: none;
 }
 
@@ -12,4 +39,4 @@
 
 .rustanswer {
   display: none;
-} */
+}

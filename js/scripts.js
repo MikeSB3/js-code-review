@@ -10,12 +10,16 @@ $(document).ready(function() {
 
     if (color === "green" && season === "fall" && born === "portland" && animal === "dog" && job != "police") {
       $(".jsanswer").show();
+      $(".jsimg").show();
     } else if (color === "red" && born === "outside" && job === "firefighter" || animal === "kangaroo") {
       $(".rubyanswer").show();
+      $(".rubyimg").show();
     } else if (animal === "snake" && job === "programmer" || born === "east") {
       $(".pythonanswer").show();
+      $(".pythonimg").show();
     } else {
       $(".rustanswer").show();
+      $(".rustimg").show();
     }
 
     event.preventDefault();
