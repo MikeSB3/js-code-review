@@ -5,7 +5,7 @@
 ## By Michael Berryman
 
 ## Description
-This webpage contains a survey meant for first time or beginner programmers that, when answered, will provide them with a suggestion for which programming language they should learn first.
+This webpage contains a survey meant for first time or beginner programmers that, when answered, will provide them with a suggestion for which programming language they should learn first and information on that programming language.
 
 ## Setup
 * Clone this repository
@@ -14,6 +14,7 @@ This webpage contains a survey meant for first time or beginner programmers that
 * Or click on the GitHub pages link below to view
 
 ## GitHub Pages
+
 
 ## Technologies used
 * HTML

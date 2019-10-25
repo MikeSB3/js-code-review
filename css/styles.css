@@ -78,10 +78,15 @@ img {
   display: none;
 }
 
-.foot {
-  margin-top: 5%;
+.bottom {
+  margin: 2% 0;
+  text-align: center;
+  border-top: 4px solid black;
+  padding-top: 1%;
 }
 
 .footer2, .footer3, .footer4, .footer5, .footer6, .footer7, .footer8, .footer9, .footer10, .footer11, .footer12 {
   display: none;
+  margin-top: 0.3%;
+  font-size: 1.3em;
 }

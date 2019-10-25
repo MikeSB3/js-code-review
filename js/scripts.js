@@ -12,10 +12,10 @@ $(document).ready(function() {
     if (color === "green" && season === "fall" && born === "portland" && animal === "dog" && job != "police") {
       $(".jsanswer").show();
       $(".jsimg").show();
-    } else if (color === "red" && born === "outside" && job === "firefighter" || animal === "kangaroo") {
+    } else if (color === "red" && born === "outside" && job === "firefighter" || animal === "kangaroo" || season === "summer") {
       $(".rubyanswer").show();
       $(".rubyimg").show();
-    } else if (animal === "snake" && job === "programmer" || born === "east") {
+    } else if (animal === "snake" && job === "programmer" || born === "east" || season === winter || color === black) {
       $(".pythonanswer").show();
       $(".pythonimg").show();
     } else {
@@ -55,4 +55,5 @@ $(document).ready(function() {
       });
     });
   });
+
 });
