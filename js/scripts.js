@@ -3,22 +3,23 @@ $(document).ready(function() {
 
   $("#mainform").submit(function(event) {
 
-    if (portland && green && fall && dog) {
+    var color = $("#colorq").val();
+    var season = $("#seasonq").val();
+    var born = $("#bornq").val();
+    var animal = $("#animalq").val();
+    var job = $("#jobq").val();
+
+    if (color === "green" && season === "fall" && born === "portland" && animal === "dog" && job != "police") {
       $(".jsanswer").show();
-    } else if (red && summer || outside) {
+    } else if (color === "red" && born === "outside" && job === "firefighter" || animal === "kangaroo") {
       $(".rubyanswer").show();
-    } else if (snake || programmer || blue || spring) {
+    } else if (animal === "snake" && job === "programmer" || born === "east") {
       $(".pythonanswer").show();
     } else {
       $(".rustanswer").show();
     }
 
-
     console.log("it submitted.");
     event.preventDefault();
   });
-
-
-
-
 });
