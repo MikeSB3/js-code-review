@@ -23,9 +23,13 @@ $(document).ready(function() {
       $(".rustimg").show();
     }
 
-
-    $(".panel-title").append(name);
+    $(".panel-title").prepend(name);
 
     event.preventDefault();
   });
+
+  $("#refresh").click(function() {
+    location.reload();
+  });
+
 });

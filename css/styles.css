@@ -11,6 +11,10 @@
   margin-top: 2%;
 }
 
+#refresh {
+  margin-top: 2%;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -52,4 +56,8 @@ img {
 
 .rustanswer {
   display: none;
+}
+
+.foot {
+  margin-top: 5%;
 }
