@@ -7,6 +7,26 @@
   margin-top: 4%;
 }
 
+.question1 {
+  margin-bottom: 2%;
+}
+
+.question2 {
+  margin-bottom: 2%;
+}
+
+.question3 {
+  margin-bottom: 2%;
+}
+
+.question4 {
+  margin-bottom: 2%;
+}
+
+.question5 {
+  margin-bottom: 2%;
+}
+
 #button {
   margin-top: 2%;
 }
@@ -60,4 +80,8 @@ img {
 
 .foot {
   margin-top: 5%;
+}
+
+.footer2, .footer3, .footer4, .footer5, .footer6, .footer7, .footer8, .footer9, .footer10, .footer11, .footer12 {
+  display: none;
 }

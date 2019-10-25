@@ -32,4 +32,27 @@ $(document).ready(function() {
     location.reload();
   });
 
+  $(".footer1").click(function() {
+    $(".footer2").fadeIn(function() {
+      $(".footer3").fadeIn(function() {
+        $(".footer4").fadeIn(function() {
+          $(".footer5").fadeIn(function() {
+            $(".footer6").fadeIn(function() {
+              $(".footer7").fadeIn(function() {
+                $(".footer8").fadeIn(function() {
+                  $(".footer9").fadeIn(function() {
+                    $(".footer10").fadeIn(function() {
+                      $(".footer11").fadeIn(function() {
+                        $(".footer12").fadeIn();
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      });
+    });
+  });
 });
