@@ -32,6 +32,8 @@ $(document).ready(function() {
     location.reload();
   });
 
+  $(".footer1").animate( {fontSize: "30px"}, 1500 );
+
   $(".footer1").click(function() {
     $(".footer2").fadeIn(function() {
       $(".footer3").fadeIn(function() {
