@@ -14,7 +14,7 @@ This webpage contains a survey meant for first time or beginner programmers that
 * Or click on the GitHub pages link below to view
 
 ## GitHub Pages
-
+https://mikesb3.github.io/js-code-review/
 
 ## Technologies used
 * HTML
