@@ -7,6 +7,7 @@ $(document).ready(function() {
     var born = $("#bornq").val();
     var animal = $("#animalq").val();
     var job = $("#jobq").val();
+    var name = $("#inputName").val();
 
     if (color === "green" && season === "fall" && born === "portland" && animal === "dog" && job != "police") {
       $(".jsanswer").show();
@@ -21,6 +22,9 @@ $(document).ready(function() {
       $(".rustanswer").show();
       $(".rustimg").show();
     }
+
+
+    $(".panel-title").append(name);
 
     event.preventDefault();
   });

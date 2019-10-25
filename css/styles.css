@@ -1,3 +1,16 @@
+.mainform-title {
+  padding-bottom: 4%;
+  border-bottom: 4px solid black;
+}
+
+#mainform {
+  margin-top: 4%;
+}
+
+#button {
+  margin-top: 2%;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -39,13 +52,4 @@ img {
 
 .rustanswer {
   display: none;
-}
-
-.mainform-title {
-  padding-bottom: 4%;
-  border-bottom: 4px solid black;
-}
-
-#mainform {
-  margin-top: 4%;
 }
