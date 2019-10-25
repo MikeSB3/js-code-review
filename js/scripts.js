@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
   $("#mainform").submit(function(event) {
 
     var color = $("#colorq").val();
@@ -19,7 +18,6 @@ $(document).ready(function() {
       $(".rustanswer").show();
     }
 
-    console.log("it submitted.");
     event.preventDefault();
   });
 });
