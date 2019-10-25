@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Programming For Life</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
@@ -48,12 +48,30 @@
                 <option>Outside of the USA</option>
               </select>
             </div>
+            <div class="question4">
+              <p>What is your favorite animal?</p>
+              <select class="form-control" id="animalq">
+                <option>Snake</option>
+                <option>Dog</option>
+                <option>Sea Otter</option>
+                <option>Kangaroo</option>
+              </select>
+            </div>
+            <div class="question5">
+              <p>What did you want to be when you were a kid?</p>
+              <select class="form-control" id="jobq">
+                <option>Astronaut</option>
+                <option>Police</option>
+                <option>Firefighter</option>
+                <option>Programmer</option>
+              </select>
+            </div>
             <button id="button" type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4 jsanswer">
+        <div class="col-sm-3 jsanswer">
           <p>JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g. having complex animations, clickable buttons, popup menus, etc.).  There are also more advanced server side versions of JavaScript such as Node.Js which allow you to add more functionality to a website than simply downloading files (such as realtime collaboration between multiple computers). Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
 
           JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:
@@ -62,13 +80,16 @@
           Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.
           This means that in the browser, JavaScript can change the way the webpage (DOM) looks. And, likewise, Node.js JavaScript on the server can respond to custom requests from code written in the browser.</p>
         </div>
-        <div class="col-sm-4 rubyanswer">
+        <div class="col-sm-3 rubyanswer">
           <p>Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. Ruby is a pure Object-Oriented language developed by Yukihiro Matsumoto. Everything in Ruby is an object except the blocks but there are replacements too for it i.e procs and lambda. The objective of Ruby’s development was to make it act as a sensible buffer between human programmers and the underlying computing machinery.</p>
         </div>
-        <div class="col-sm-4 pythonanswer">
+        <div class="col-sm-3 pythonanswer">
           <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
 
           Often, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.</p>
+        </div>
+        <div class="col-sm-3 rustanswer">
+          <p>Rust is a multi-paradigm system programming language focused on safety, especially safe concurrency. Rust is syntactically similar to C++, but is designed to provide better memory safety while maintaining high performance.</p>
         </div>
       </div>
     </div>
