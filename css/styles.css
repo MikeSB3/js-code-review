@@ -40,3 +40,12 @@ img {
 .rustanswer {
   display: none;
 }
+
+.mainform-title {
+  padding-bottom: 4%;
+  border-bottom: 4px solid black;
+}
+
+#mainform {
+  margin-top: 4%;
+}
